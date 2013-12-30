@@ -10,16 +10,16 @@
 //
 // </copyright>
 // -----------------------------------------------------------------------
-namespace MicroLite.Logging
+namespace MicroLite.Logging.NLog
 {
     using System;
     using System.Globalization;
 
     internal sealed class LogAdapter : ILog
     {
-        private readonly NLog.Logger log;
+        private readonly global::NLog.Logger log;
 
-        internal LogAdapter(NLog.Logger log)
+        internal LogAdapter(global::NLog.Logger log)
         {
             this.log = log;
         }

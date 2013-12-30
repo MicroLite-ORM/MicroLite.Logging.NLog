@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="ConfigurationExtensions.cs" company="MicroLite">
+// <copyright file="NLogConfigurationExtensions.cs" company="MicroLite">
 // Copyright 2012 - 2014 Project Contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,11 +14,12 @@ namespace MicroLite.Configuration
 {
     using System;
     using MicroLite.Logging;
+    using MicroLite.Logging.NLog;
 
     /// <summary>
     /// Extensions for the MicroLite configuration.
     /// </summary>
-    public static class ConfigurationExtensions
+    public static class NLogConfigurationExtensions
     {
         /// <summary>
         /// Configures the MicroLite ORM Framework to use NLog as the logging framework.
@@ -36,7 +37,7 @@ namespace MicroLite.Configuration
 
             configureExtensions.SetLogResolver((string name) =>
             {
-                var logger = NLog.LogManager.GetLogger(name);
+                var logger = global::NLog.LogManager.GetLogger(name);
 
                 return new LogAdapter(logger);
             });
