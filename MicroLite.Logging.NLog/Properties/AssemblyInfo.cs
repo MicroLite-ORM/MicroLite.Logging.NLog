@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MicroLite.Logging.NLog")]
-[assembly: AssemblyDescription("MicroLite ORM Framework extension to use NLog")]
+[assembly: AssemblyDescription("MicroLite.Logging.NLog is an extension to the MicroLite ORM Framework which allows MicroLite to write any log statements to NLog")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MicroLite")]
 [assembly: AssemblyProduct("MicroLite.Logging.NLog")]
