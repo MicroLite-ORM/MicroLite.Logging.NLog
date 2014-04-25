@@ -19,4 +19,8 @@ You can then load the extension in your application start-up:
        .Fluently()
        ...
 
-For further information on configuring NLog, see [github.com/nlog/nlog/wiki/Tutorial](https://github.com/nlog/nlog/wiki/Tutorial)
+For further information on configuring NLog, see [github.com/nlog/nlog/wiki/Tutorial](https://github.com/nlog/nlog/wiki/Tutorial).
+
+_Supported .NET Framework Versions_
+
+The NuGet Package contains binaries compiled against 3.5, 4.0 and 4.5.
