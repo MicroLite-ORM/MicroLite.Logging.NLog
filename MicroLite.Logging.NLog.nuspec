@@ -14,7 +14,7 @@
     <tags>Micro ORM Framework POCO Database NLog</tags>
     <dependencies>
       <dependency id="NLog" version="2.0.0" />
-      <dependency id="MicroLite" version="5.0.0-rc" />
+      <dependency id="MicroLite" version="5.0.0" />
     </dependencies>
   </metadata>
   <files>
