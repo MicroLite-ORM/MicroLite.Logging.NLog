@@ -21,10 +21,14 @@ You can then load the extension in your application start-up:
 
 For further information on configuring NLog, see [github.com/nlog/nlog/wiki/Tutorial](https://github.com/nlog/nlog/wiki/Tutorial).
 
-_Supported .NET Framework Versions_
+## Supported .NET Framework Versions
 
 The NuGet Package contains binaries compiled against:
 
 * .NET 3.5 (Client Profile)
 * .NET 4.0 (Client Profile)
 * .NET 4.5
+
+## Supported NLog Versions
+
+* NLog 2.0.0.2000 onwards
