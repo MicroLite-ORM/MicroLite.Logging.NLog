@@ -86,7 +86,7 @@ namespace MicroLite.Logging.NLog
 
         public void Error(string message, Exception exception)
         {
-            this.log.ErrorException(message, exception);
+            this.log.Error(message, exception);
         }
 
         public void Fatal(string message)
@@ -101,7 +101,7 @@ namespace MicroLite.Logging.NLog
 
         public void Fatal(string message, Exception exception)
         {
-            this.log.FatalException(message, exception);
+            this.log.Fatal(message, exception);
         }
 
         public void Info(string message)
