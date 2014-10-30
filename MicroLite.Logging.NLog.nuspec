@@ -18,10 +18,10 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\build\3.5\MicroLite.Logging.NLog.dll" target="lib\net35-client" />
-    <file src="..\build\3.5\MicroLite.Logging.NLog.xml" target="lib\net35-client" />
-    <file src="..\build\4.0\MicroLite.Logging.NLog.dll" target="lib\net40-client" />
-    <file src="..\build\4.0\MicroLite.Logging.NLog.xml" target="lib\net40-client" />
+    <file src="..\build\3.5\MicroLite.Logging.NLog.dll" target="lib\net35" />
+    <file src="..\build\3.5\MicroLite.Logging.NLog.xml" target="lib\net35" />
+    <file src="..\build\4.0\MicroLite.Logging.NLog.dll" target="lib\net40" />
+    <file src="..\build\4.0\MicroLite.Logging.NLog.xml" target="lib\net40" />
     <file src="..\build\4.5\MicroLite.Logging.NLog.dll" target="lib\net45" />
     <file src="..\build\4.5\MicroLite.Logging.NLog.xml" target="lib\net45" />
   </files>
