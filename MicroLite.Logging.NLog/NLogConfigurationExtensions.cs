@@ -13,7 +13,6 @@
 namespace MicroLite.Configuration
 {
     using System;
-    using MicroLite.Logging;
     using MicroLite.Logging.NLog;
 
     /// <summary>
@@ -35,9 +34,9 @@ namespace MicroLite.Configuration
 
             System.Diagnostics.Trace.TraceInformation("MicroLite: loading NLog extension.");
 
-            configureExtensions.SetLogResolver((string name) =>
+            configureExtensions.SetLogResolver((Type type) =>
             {
-                var logger = global::NLog.LogManager.GetLogger(name);
+                var logger = global::NLog.LogManager.GetLogger(type.FullName);
 
                 return new LogAdapter(logger);
             });
