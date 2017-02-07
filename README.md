@@ -30,7 +30,8 @@ The NuGet Package contains binaries compiled against:
 * .NET 3.5 (Full)
 * .NET 4.0 (Full)
 * .NET 4.5
+* .NET 4.6
 
 ## Supported NLog Versions
 
-* NLog 3.0.0 onwards
+* NLog 4.3.0 onwards
