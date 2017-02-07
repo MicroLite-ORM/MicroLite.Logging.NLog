@@ -1,6 +1,6 @@
 ﻿// -----------------------------------------------------------------------
 // <copyright file="LogAdapter.cs" company="MicroLite">
-// Copyright 2012 - 2015 Project Contributors
+// Copyright 2012 - 2017 Project Contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -24,45 +24,15 @@ namespace MicroLite.Logging.NLog
             this.log = log;
         }
 
-        public bool IsDebug
-        {
-            get
-            {
-                return this.log.IsDebugEnabled;
-            }
-        }
+        public bool IsDebug => this.log.IsDebugEnabled;
 
-        public bool IsError
-        {
-            get
-            {
-                return this.log.IsErrorEnabled;
-            }
-        }
+        public bool IsError => this.log.IsErrorEnabled;
 
-        public bool IsFatal
-        {
-            get
-            {
-                return this.log.IsFatalEnabled;
-            }
-        }
+        public bool IsFatal => this.log.IsFatalEnabled;
 
-        public bool IsInfo
-        {
-            get
-            {
-                return this.log.IsInfoEnabled;
-            }
-        }
+        public bool IsInfo => this.log.IsInfoEnabled;
 
-        public bool IsWarn
-        {
-            get
-            {
-                return this.log.IsWarnEnabled;
-            }
-        }
+        public bool IsWarn => this.log.IsWarnEnabled;
 
         public void Debug(string message)
         {
@@ -86,7 +56,7 @@ namespace MicroLite.Logging.NLog
 
         public void Error(string message, Exception exception)
         {
-            this.log.Error(message, exception);
+            this.log.Error(exception, message, null);
         }
 
         public void Fatal(string message)
@@ -101,7 +71,7 @@ namespace MicroLite.Logging.NLog
 
         public void Fatal(string message, Exception exception)
         {
-            this.log.Fatal(message, exception);
+            this.log.Fatal(exception, message, null);
         }
 
         public void Info(string message)
