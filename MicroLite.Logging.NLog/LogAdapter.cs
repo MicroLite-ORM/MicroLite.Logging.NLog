@@ -34,64 +34,28 @@ namespace MicroLite.Logging.NLog
 
         public bool IsWarn => this.log.IsWarnEnabled;
 
-        public void Debug(string message)
-        {
-            this.log.Debug(message);
-        }
+        public void Debug(string message) => this.log.Debug(message);
 
-        public void Debug(string message, params string[] formatArgs)
-        {
-            this.log.Debug(CultureInfo.InvariantCulture, message, (object[])formatArgs);
-        }
+        public void Debug(string message, params string[] formatArgs) => this.log.Debug(CultureInfo.InvariantCulture, message, (object[])formatArgs);
 
-        public void Error(string message)
-        {
-            this.log.Error(message);
-        }
+        public void Error(string message) => this.log.Error(message);
 
-        public void Error(string message, params string[] formatArgs)
-        {
-            this.log.Error(CultureInfo.InvariantCulture, message, (object[])formatArgs);
-        }
+        public void Error(string message, params string[] formatArgs) => this.log.Error(CultureInfo.InvariantCulture, message, (object[])formatArgs);
 
-        public void Error(string message, Exception exception)
-        {
-            this.log.Error(exception, message, null);
-        }
+        public void Error(string message, Exception exception) => this.log.Error(exception, message, null);
 
-        public void Fatal(string message)
-        {
-            this.log.Fatal(message);
-        }
+        public void Fatal(string message) => this.log.Fatal(message);
 
-        public void Fatal(string message, params string[] formatArgs)
-        {
-            this.log.Fatal(CultureInfo.InvariantCulture, message, (object[])formatArgs);
-        }
+        public void Fatal(string message, params string[] formatArgs) => this.log.Fatal(CultureInfo.InvariantCulture, message, (object[])formatArgs);
 
-        public void Fatal(string message, Exception exception)
-        {
-            this.log.Fatal(exception, message, null);
-        }
+        public void Fatal(string message, Exception exception) => this.log.Fatal(exception, message, null);
 
-        public void Info(string message)
-        {
-            this.log.Info(message);
-        }
+        public void Info(string message) => this.log.Info(message);
 
-        public void Info(string message, params string[] formatArgs)
-        {
-            this.log.Info(CultureInfo.InvariantCulture, message, (object[])formatArgs);
-        }
+        public void Info(string message, params string[] formatArgs) => this.log.Info(CultureInfo.InvariantCulture, message, (object[])formatArgs);
 
-        public void Warn(string message)
-        {
-            this.log.Warn(message);
-        }
+        public void Warn(string message) => this.log.Warn(message);
 
-        public void Warn(string message, params string[] formatArgs)
-        {
-            this.log.Warn(CultureInfo.InvariantCulture, message, (object[])formatArgs);
-        }
+        public void Warn(string message, params string[] formatArgs) => this.log.Warn(CultureInfo.InvariantCulture, message, (object[])formatArgs);
     }
 }
