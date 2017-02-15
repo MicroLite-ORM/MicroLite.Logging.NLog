@@ -34,4 +34,4 @@ The NuGet Package contains binaries compiled against:
 
 ## Supported NLog Versions
 
-* NLog 4.3.0 onwards
+* NLog 4.4.0 onwards

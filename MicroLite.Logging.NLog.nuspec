@@ -14,7 +14,7 @@
     <tags>NLog MicroORM ORM POCO Database</tags>
     <dependencies>
       <dependency id="MicroLite" version="[6.3,7.0)" />
-      <dependency id="NLog" version="4.3.0" />
+      <dependency id="NLog" version="4.4.0" />
     </dependencies>
   </metadata>
   <files>
@@ -25,6 +25,6 @@
     <file src="..\build\4.5\MicroLite.Logging.NLog.dll" target="lib\net45" />
     <file src="..\build\4.5\MicroLite.Logging.NLog.xml" target="lib\net45" />
     <file src="..\build\4.6\MicroLite.Logging.NLog.dll" target="lib\net46" />
-    <file src="..\build\4.6\MicroLite.Logging.NLog.xml" target="lib\net46 />
+    <file src="..\build\4.6\MicroLite.Logging.NLog.xml" target="lib\net46" />
   </files>
 </package>
