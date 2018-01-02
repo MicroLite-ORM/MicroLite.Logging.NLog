@@ -18,13 +18,11 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\build\3.5\MicroLite.Logging.NLog.dll" target="lib\net35" />
-    <file src="..\build\3.5\MicroLite.Logging.NLog.xml" target="lib\net35" />
-    <file src="..\build\4.0\MicroLite.Logging.NLog.dll" target="lib\net40" />
-    <file src="..\build\4.0\MicroLite.Logging.NLog.xml" target="lib\net40" />
-    <file src="..\build\4.5\MicroLite.Logging.NLog.dll" target="lib\net45" />
-    <file src="..\build\4.5\MicroLite.Logging.NLog.xml" target="lib\net45" />
-    <file src="..\build\4.6\MicroLite.Logging.NLog.dll" target="lib\net46" />
-    <file src="..\build\4.6\MicroLite.Logging.NLog.xml" target="lib\net46" />
+    <file src="MicroLite.Logging.NLog.NET35\bin\Release\MicroLite.Logging.NLog.dll" target="lib\net35" />
+    <file src="MicroLite.Logging.NLog.NET35\bin\Release\MicroLite.Logging.NLog.xml" target="lib\net35" />
+    <file src="MicroLite.Logging.NLog.NET40\bin\Release\MicroLite.Logging.NLog.dll" target="lib\net40" />
+    <file src="MicroLite.Logging.NLog.NET40\bin\Release\MicroLite.Logging.NLog.xml" target="lib\net40" />
+    <file src="MicroLite.Logging.NLog.NET45\bin\Release\MicroLite.Logging.NLog.dll" target="lib\net45" />
+    <file src="MicroLite.Logging.NLog.NET45\bin\Release\MicroLite.Logging.NLog.xml" target="lib\net45" />
   </files>
 </package>
