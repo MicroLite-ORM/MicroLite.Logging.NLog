@@ -56,10 +56,10 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\MicroLite.Logging.NLog.NET35\LogAdapter.cs">
+    <Compile Include="..\MicroLite.Logging.NLog.NET45\LogAdapter.cs">
       <Link>LogAdapter.cs</Link>
     </Compile>
-    <Compile Include="..\MicroLite.Logging.NLog.NET35\NLogConfigurationExtensions.cs">
+    <Compile Include="..\MicroLite.Logging.NLog.NET45\NLogConfigurationExtensions.cs">
       <Link>NLogConfigurationExtensions.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
