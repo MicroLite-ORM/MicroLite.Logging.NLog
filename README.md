@@ -1,13 +1,20 @@
-MicroLite.Logging.NLog
-======================
+# MicroLite.Logging.NLog
 
-[![NuGet version](https://badge.fury.io/nu/MicroLite.Logging.NLog.svg)](http://badge.fury.io/nu/MicroLite.Logging.NLog)
+## Status
 
-_MicroLite.Logging.NLog_ is an extension to the MicroLite ORM Framework which allows MicroLite to write any log statements to [NLog](http://nlog-project.org/).
+|Service|Status|
+|-------|------|
+||[![NuGet version](https://badge.fury.io/nu/MicroLite.Logging.NLog.svg)](http://badge.fury.io/nu/MicroLite.Logging.NLog)|
+|/develop|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=develop)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=34&branchName=develop)|
+|/master|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=master)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=34&branchName=master)|
 
-In order to use the extension, you first need to install it via NuGet:
+## Installation
 
-    Install-Package MicroLite.Logging.NLog
+Install the nuget package `Install-Package MicroLite.Extensions.NLog`
+
+## Summary
+
+MicroLite.Logging.NLog is a .NET 4.5 library which adds an extension for the MicroLite ORM Framework to use NLog as the logging library.
 
 You can then load the extension in your application start-up:
 
@@ -23,15 +30,10 @@ You can then load the extension in your application start-up:
 
 For further information on configuring NLog, see [github.com/nlog/nlog/wiki/Tutorial](https://github.com/nlog/nlog/wiki/Tutorial).
 
-## Supported .NET Framework Versions
+## Supported .NET Versions
 
-The NuGet Package contains binaries compiled against:
+The NuGet Package contains binaries compiled against (dependencies indented):
 
-* .NET 3.5 (Full)
-* .NET 4.0 (Full)
-* .NET 4.5
-* .NET 4.6
-
-## Supported NLog Versions
-
-* NLog 4.4.0 onwards
+* .NET Framework 4.5
+  * MicroLite 6.3.1
+  * NLog 4.4.0
