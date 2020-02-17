@@ -1,6 +1,6 @@
 ﻿// -----------------------------------------------------------------------
 // <copyright file="NLogConfigurationExtensions.cs" company="Project Contributors">
-// Copyright 2012 - 2018 Project Contributors
+// Copyright Project Contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -10,11 +10,11 @@
 //
 // </copyright>
 // -----------------------------------------------------------------------
+using System;
+using MicroLite.Logging.NLog;
+
 namespace MicroLite.Configuration
 {
-    using System;
-    using MicroLite.Logging.NLog;
-
     /// <summary>
     /// Extensions for the MicroLite configuration.
     /// </summary>
@@ -27,16 +27,16 @@ namespace MicroLite.Configuration
         /// <returns>The configure extensions.</returns>
         public static IConfigureExtensions WithNLog(this IConfigureExtensions configureExtensions)
         {
-            if (configureExtensions == null)
+            if (configureExtensions is null)
             {
-                throw new ArgumentNullException("configureExtensions");
+                throw new ArgumentNullException(nameof(configureExtensions));
             }
 
             System.Diagnostics.Trace.TraceInformation("MicroLite: loading NLog extension.");
 
             configureExtensions.SetLogResolver((Type type) =>
             {
-                var logger = global::NLog.LogManager.GetLogger(type.FullName);
+                NLog.Logger logger = NLog.LogManager.GetLogger(type.FullName);
 
                 return new LogAdapter(logger);
             });
