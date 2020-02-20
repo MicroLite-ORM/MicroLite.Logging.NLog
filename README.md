@@ -35,5 +35,5 @@ For further information on configuring NLog, see [github.com/nlog/nlog/wiki/Tuto
 The NuGet Package contains binaries compiled against (dependencies indented):
 
 * .NET Framework 4.5
-  * MicroLite 6.3.1
+  * MicroLite 7.0.0
   * NLog 4.4.0
