@@ -1,6 +1,5 @@
-# MicroLite.Logging.NLog
-
-## Status
+MicroLite.Logging.NLog
+======================
 
 |Service|Status|
 |-------|------|
@@ -8,13 +7,13 @@
 |/develop|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=develop)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=34&branchName=develop)|
 |/master|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=master)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=34&branchName=master)|
 
+MicroLite.Logging.NLog is a .NET 4.5 library which adds an extension for the MicroLite ORM Framework to use NLog as the logging library.
+
 ## Installation
 
 Install the nuget package `Install-Package MicroLite.Extensions.NLog`
 
-## Summary
-
-MicroLite.Logging.NLog is a .NET 4.5 library which adds an extension for the MicroLite ORM Framework to use NLog as the logging library.
+## Configuration
 
 You can then load the extension in your application start-up:
 
