@@ -1,13 +1,13 @@
-MicroLite.Logging.NLog
-======================
-
-|Service|Status|
-|-------|------|
-||[![NuGet version](https://badge.fury.io/nu/MicroLite.Logging.NLog.svg)](http://badge.fury.io/nu/MicroLite.Logging.NLog)|
-|/develop|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=develop)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=34&branchName=develop)|
-|/master|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=master)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=34&branchName=master)|
+# MicroLite.Logging.NLog
 
 MicroLite.Logging.NLog is a .NET 4.5 library which adds an extension for the MicroLite ORM Framework to use NLog as the logging library.
+
+![Nuget](https://img.shields.io/nuget/dt/MicroLite.Logging.NLog)
+
+|Branch|Status|
+|------|------|
+|/develop|![GitHub last commit (branch)](https://img.shields.io/github/last-commit/MicroLite-ORM/MicroLite.Logging.NLog/develop) [![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=develop)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=develop) ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/MicroLite.Logging.NLog)|
+|/master|![GitHub last commit](https://img.shields.io/github/last-commit/MicroLite-ORM/MicroLite.Logging.NLog/master) [![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=master)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=master) ![Nuget](https://img.shields.io/nuget/v/MicroLite.Logging.NLog) ![GitHub Release Date](https://img.shields.io/github/release-date/MicroLite-ORM/MicroLite.Logging.NLog)|
 
 ## Installation
 
