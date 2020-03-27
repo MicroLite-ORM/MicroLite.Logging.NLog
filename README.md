@@ -1,13 +1,19 @@
-MicroLite.Logging.NLog
-======================
+# MicroLite.Logging.NLog
 
-[![NuGet version](https://badge.fury.io/nu/MicroLite.Logging.NLog.svg)](http://badge.fury.io/nu/MicroLite.Logging.NLog)
+MicroLite.Logging.NLog is a .NET 4.5 library which adds an extension for the MicroLite ORM Framework to use NLog as the logging library.
 
-_MicroLite.Logging.NLog_ is an extension to the MicroLite ORM Framework which allows MicroLite to write any log statements to [NLog](http://nlog-project.org/).
+![Nuget](https://img.shields.io/nuget/dt/MicroLite.Logging.NLog)
 
-In order to use the extension, you first need to install it via NuGet:
+|Branch|Status|
+|------|------|
+|/develop|![GitHub last commit (branch)](https://img.shields.io/github/last-commit/MicroLite-ORM/MicroLite.Logging.NLog/develop) [![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=develop)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=develop) ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/MicroLite.Logging.NLog)|
+|/master|![GitHub last commit](https://img.shields.io/github/last-commit/MicroLite-ORM/MicroLite.Logging.NLog/master) [![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.NLog?branchName=master)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=master) ![Nuget](https://img.shields.io/nuget/v/MicroLite.Logging.NLog) ![GitHub Release Date](https://img.shields.io/github/release-date/MicroLite-ORM/MicroLite.Logging.NLog)|
 
-    Install-Package MicroLite.Logging.NLog
+## Installation
+
+Install the nuget package `Install-Package MicroLite.Extensions.NLog`
+
+## Configuration
 
 You can then load the extension in your application start-up:
 
@@ -23,15 +29,10 @@ You can then load the extension in your application start-up:
 
 For further information on configuring NLog, see [github.com/nlog/nlog/wiki/Tutorial](https://github.com/nlog/nlog/wiki/Tutorial).
 
-## Supported .NET Framework Versions
+## Supported .NET Versions
 
-The NuGet Package contains binaries compiled against:
+The NuGet Package contains binaries compiled against (dependencies indented):
 
-* .NET 3.5 (Full)
-* .NET 4.0 (Full)
-* .NET 4.5
-* .NET 4.6
-
-## Supported NLog Versions
-
-* NLog 4.4.0 onwards
+* .NET Framework 4.5
+  * MicroLite 7.0.0
+  * NLog 4.4.0
